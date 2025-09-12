@@ -1,0 +1,836 @@
+[
+  {
+    "name": "Albania",
+    "iso": "ALB",
+    "flag": "AL",
+    "region": "European Region"
+  },
+  {
+    "name": "Argentina",
+    "iso": "ARG",
+    "flag": "AR",
+    "region": "Region of the Americas"
+  },
+  {
+    "name": "Armenia",
+    "iso": "ARM",
+    "flag": "AM",
+    "region": "European Region"
+  },
+  {
+    "name": "Australia",
+    "iso": "AUS",
+    "flag": "AU",
+    "region": "Western Pacific Region"
+  },
+  {
+    "name": "Austria",
+    "iso": "AUT",
+    "flag": "AT",
+    "region": "European Region"
+  },
+  {
+    "name": "Bahamas",
+    "iso": "BHS",
+    "flag": "BS",
+    "region": "Region of the Americas"
+  },
+  {
+    "name": "Bahrain",
+    "iso": "BHR",
+    "flag": "BH",
+    "region": "Eastern Mediterranean Region"
+  },
+  {
+    "name": "Bangladesh",
+    "iso": "BGD",
+    "flag": "BD",
+    "region": "South East Asia Region"
+  },
+  {
+    "name": "Belarus",
+    "iso": "BLR",
+    "flag": "BY",
+    "region": "European Region"
+  },
+  {
+    "name": "Belgium",
+    "iso": "BEL",
+    "flag": "BE",
+    "region": "European Region"
+  },
+  {
+    "name": "Belize",
+    "iso": "BLZ",
+    "flag": "BZ",
+    "region": "Region of the Americas"
+  },
+  {
+    "name": "Benin",
+    "iso": "BEN",
+    "flag": "BJ",
+    "region": "African Region"
+  },
+  {
+    "name": "Bermuda",
+    "iso": "BMU",
+    "flag": "BM",
+    "region": "Region of the Americas"
+  },
+  {
+    "name": "Bhutan",
+    "iso": "BTN",
+    "flag": "BT",
+    "region": "South East Asia Region"
+  },
+  {
+    "name": "Bolivia",
+    "iso": "BOL",
+    "flag": "BO",
+    "region": "Region of the Americas"
+  },
+  {
+    "name": "Brazil",
+    "iso": "BRA",
+    "flag": "BR",
+    "region": "Region of the Americas"
+  },
+  {
+    "name": "Bulgaria",
+    "iso": "BGR",
+    "flag": "BG",
+    "region": "European Region"
+  },
+  {
+    "name": "Burkina Faso",
+    "iso": "BFA",
+    "flag": "BF",
+    "region": "African Region"
+  },
+  {
+    "name": "Burundi",
+    "iso": "BDI",
+    "flag": "BI",
+    "region": "African Region"
+  },
+  {
+    "name": "Cabo Verde",
+    "iso": "CPV",
+    "flag": "CV",
+    "region": "African Region"
+  },
+  {
+    "name": "Cambodia",
+    "iso": "KHM",
+    "flag": "KH",
+    "region": "Western Pacific Region"
+  },
+  {
+    "name": "Canada",
+    "iso": "CAN",
+    "flag": "CA",
+    "region": "Region of the Americas"
+  },
+  {
+    "name": "Chad",
+    "iso": "TCD",
+    "flag": "TD",
+    "region": "African Region"
+  },
+  {
+    "name": "Chile",
+    "iso": "CHL",
+    "flag": "CL",
+    "region": "Region of the Americas"
+  },
+  {
+    "name": "China",
+    "iso": "CHN",
+    "flag": "CN",
+    "region": "Western Pacific Region"
+  },
+  {
+    "name": "Colombia",
+    "iso": "COL",
+    "flag": "CO",
+    "region": "Region of the Americas"
+  },
+  {
+    "name": "Comoros",
+    "iso": "COM",
+    "flag": "KM",
+    "region": "African Region"
+  },
+  {
+    "name": "Congo",
+    "iso": "COG",
+    "flag": "CG",
+    "region": "African Region"
+  },
+  {
+    "name": "Cook Islands",
+    "iso": "COK",
+    "flag": "CK",
+    "region": "Western Pacific Region"
+  },
+  {
+    "name": "Costa Rica",
+    "iso": "CRI",
+    "flag": "CR",
+    "region": "Region of the Americas"
+  },
+  {
+    "name": "Côte d'Ivoire",
+    "iso": "CIV",
+    "flag": "CI",
+    "region": "African Region"
+  },
+  {
+    "name": "Croatia",
+    "iso": "HRV",
+    "flag": "HR",
+    "region": "European Region"
+  },
+  {
+    "name": "Cuba",
+    "iso": "CUB",
+    "flag": "CU",
+    "region": "Region of the Americas"
+  },
+  {
+    "name": "Cyprus",
+    "iso": "CYP",
+    "flag": "CY",
+    "region": "European Region"
+  },
+  {
+    "name": "Czechia",
+    "iso": "CZE",
+    "flag": "CZ",
+    "region": "European Region"
+  },
+  {
+    "name": "Denmark",
+    "iso": "DNK",
+    "flag": "DK",
+    "region": "European Region"
+  },
+  {
+    "name": "Dominica",
+    "iso": "DMA",
+    "flag": "DM",
+    "region": "Region of the Americas"
+  },
+  {
+    "name": "Dominican Republic",
+    "iso": "DOM",
+    "flag": "DO",
+    "region": "Region of the Americas"
+  },
+  {
+    "name": "Ecuador",
+    "iso": "ECU",
+    "flag": "EC",
+    "region": "Region of the Americas"
+  },
+  {
+    "name": "El Salvador",
+    "iso": "SLV",
+    "flag": "SV",
+    "region": "Region of the Americas"
+  },
+  {
+    "name": "Estonia",
+    "iso": "EST",
+    "flag": "EE",
+    "region": "European Region"
+  },
+  {
+    "name": "Eswatini",
+    "iso": "SWZ",
+    "flag": "SZ",
+    "region": "African Region"
+  },
+  {
+    "name": "Ethiopia",
+    "iso": "ETH",
+    "flag": "ET",
+    "region": "African Region"
+  },
+  {
+    "name": "Finland",
+    "iso": "FIN",
+    "flag": "FI",
+    "region": "European Region"
+  },
+  {
+    "name": "France",
+    "iso": "FRA",
+    "flag": "FR",
+    "region": "European Region"
+  },
+  {
+    "name": "Gabon",
+    "iso": "GAB",
+    "flag": "GA",
+    "region": "African Region"
+  },
+  {
+    "name": "Gambia",
+    "iso": "GMB",
+    "flag": "GM",
+    "region": "African Region"
+  },
+  {
+    "name": "Germany",
+    "iso": "DEU",
+    "flag": "DE",
+    "region": "European Region"
+  },
+  {
+    "name": "Ghana",
+    "iso": "GHA",
+    "flag": "GH",
+    "region": "African Region"
+  },
+  {
+    "name": "Greece",
+    "iso": "GRC",
+    "flag": "GR",
+    "region": "European Region"
+  },
+  {
+    "name": "Guatemala",
+    "iso": "GTM",
+    "flag": "GT",
+    "region": "Region of the Americas"
+  },
+  {
+    "name": "Guyana",
+    "iso": "GUY",
+    "flag": "GY",
+    "region": "Region of the Americas"
+  },
+  {
+    "name": "Honduras",
+    "iso": "HND",
+    "flag": "HN",
+    "region": "Region of the Americas"
+  },
+  {
+    "name": "Hong Kong SAR (China)",
+    "iso": "HKG",
+    "flag": "HK",
+    "region": "Western Pacific Region"
+  },
+  {
+    "name": "Hungary",
+    "iso": "HUN",
+    "flag": "HU",
+    "region": "European Region"
+  },
+  {
+    "name": "Iceland",
+    "iso": "ISL",
+    "flag": "IS",
+    "region": "European Region"
+  },
+  {
+    "name": "India",
+    "iso": "IND",
+    "flag": "IN",
+    "region": "South East Asia Region"
+  },
+  {
+    "name": "Iran",
+    "iso": "IRN",
+    "flag": "IR",
+    "region": "Eastern Mediterranean Region"
+  },
+  {
+    "name": "Iraq",
+    "iso": "IRQ",
+    "flag": "IQ",
+    "region": "Eastern Mediterranean Region"
+  },
+  {
+    "name": "Ireland",
+    "iso": "IRL",
+    "flag": "IE",
+    "region": "European Region"
+  },
+  {
+    "name": "Italy",
+    "iso": "ITA",
+    "flag": "IT",
+    "region": "European Region"
+  },
+  {
+    "name": "Jamaica",
+    "iso": "JAM",
+    "flag": "JM",
+    "region": "Region of the Americas"
+  },
+  {
+    "name": "Japan",
+    "iso": "JPN",
+    "flag": "JP",
+    "region": "Western Pacific Region"
+  },
+  {
+    "name": "Jordan",
+    "iso": "JOR",
+    "flag": "JO",
+    "region": "Eastern Mediterranean Region"
+  },
+  {
+    "name": "Kazakhstan",
+    "iso": "KAZ",
+    "flag": "KZ",
+    "region": "European Region"
+  },
+  {
+    "name": "Kenya",
+    "iso": "KEN",
+    "flag": "KE",
+    "region": "African Region"
+  },
+  {
+    "name": "Kuwait",
+    "iso": "KWT",
+    "flag": "KW",
+    "region": "Eastern Mediterranean Region"
+  },
+  {
+    "name": "Kyrgyzstan",
+    "iso": "KGZ",
+    "flag": "KG",
+    "region": "European Region"
+  },
+  {
+    "name": "Lao People's Democratic Republic",
+    "iso": "LAO",
+    "flag": "LA",
+    "region": "Western Pacific Region"
+  },
+  {
+    "name": "Latvia",
+    "iso": "LVA",
+    "flag": "LV",
+    "region": "European Region"
+  },
+  {
+    "name": "Lebanon",
+    "iso": "LBN",
+    "flag": "LB",
+    "region": "Eastern Mediterranean Region"
+  },
+  {
+    "name": "Liberia",
+    "iso": "LBR",
+    "flag": "LR",
+    "region": "African Region"
+  },
+  {
+    "name": "Lithuania",
+    "iso": "LTU",
+    "flag": "LT",
+    "region": "European Region"
+  },
+  {
+    "name": "Luxembourg",
+    "iso": "LUX",
+    "flag": "LU",
+    "region": "European Region"
+  },
+  {
+    "name": "Macao SAR (China)",
+    "iso": "MAC",
+    "flag": "MO",
+    "region": "Western Pacific Region"
+  },
+  {
+    "name": "Malawi",
+    "iso": "MWI",
+    "flag": "MW",
+    "region": "African Region"
+  },
+  {
+    "name": "Malaysia",
+    "iso": "MYS",
+    "flag": "MY",
+    "region": "Western Pacific Region"
+  },
+  {
+    "name": "Maldives",
+    "iso": "MDV",
+    "flag": "MV",
+    "region": "South East Asia Region"
+  },
+  {
+    "name": "Mali",
+    "iso": "MLI",
+    "flag": "ML",
+    "region": "African Region"
+  },
+  {
+    "name": "Malta",
+    "iso": "MLT",
+    "flag": "MT",
+    "region": "European Region"
+  },
+  {
+    "name": "Mauritius",
+    "iso": "MUS",
+    "flag": "MU",
+    "region": "African Region"
+  },
+  {
+    "name": "Mexico",
+    "iso": "MEX",
+    "flag": "MX",
+    "region": "Region of the Americas"
+  },
+  {
+    "name": "Mongolia",
+    "iso": "MNG",
+    "flag": "MN",
+    "region": "Western Pacific Region"
+  },
+  {
+    "name": "Montenegro",
+    "iso": "MNE",
+    "flag": "ME",
+    "region": "European Region"
+  },
+  {
+    "name": "Morocco",
+    "iso": "MAR",
+    "flag": "MA",
+    "region": "Eastern Mediterranean Region"
+  },
+  {
+    "name": "Myanmar",
+    "iso": "MMR",
+    "flag": "MM",
+    "region": "South East Asia Region"
+  },
+  {
+    "name": "Namibia",
+    "iso": "NAM",
+    "flag": "NA",
+    "region": "African Region"
+  },
+  {
+    "name": "Nepal",
+    "iso": "NPL",
+    "flag": "NP",
+    "region": "South East Asia Region"
+  },
+  {
+    "name": "Netherlands",
+    "iso": "NLD",
+    "flag": "NL",
+    "region": "European Region"
+  },
+  {
+    "name": "New Zealand",
+    "iso": "NZL",
+    "flag": "NZ",
+    "region": "Western Pacific Region"
+  },
+  {
+    "name": "Niger",
+    "iso": "NER",
+    "flag": "NE",
+    "region": "African Region"
+  },
+  {
+    "name": "Nigeria",
+    "iso": "NGA",
+    "flag": "NG",
+    "region": "African Region"
+  },
+  {
+    "name": "North Macedonia",
+    "iso": "MKD",
+    "flag": "MK",
+    "region": "European Region"
+  },
+  {
+    "name": "Norway",
+    "iso": "NOR",
+    "flag": "NO",
+    "region": "European Region"
+  },
+  {
+    "name": "Pakistan",
+    "iso": "PAK",
+    "flag": "PK",
+    "region": "Eastern Mediterranean Region"
+  },
+  {
+    "name": "Panama",
+    "iso": "PAN",
+    "flag": "PA",
+    "region": "Region of the Americas"
+  },
+  {
+    "name": "Papua New Guinea",
+    "iso": "PNG",
+    "flag": "PG",
+    "region": "Western Pacific Region"
+  },
+  {
+    "name": "Paraguay",
+    "iso": "PRY",
+    "flag": "PY",
+    "region": "Region of the Americas"
+  },
+  {
+    "name": "Peru",
+    "iso": "PER",
+    "flag": "PE",
+    "region": "Region of the Americas"
+  },
+  {
+    "name": "Philippines",
+    "iso": "PHL",
+    "flag": "PH",
+    "region": "Western Pacific Region"
+  },
+  {
+    "name": "Poland",
+    "iso": "POL",
+    "flag": "PL",
+    "region": "European Region"
+  },
+  {
+    "name": "Portugal",
+    "iso": "PRT",
+    "flag": "PT",
+    "region": "European Region"
+  },
+  {
+    "name": "Qatar",
+    "iso": "QAT",
+    "flag": "QA",
+    "region": "Eastern Mediterranean Region"
+  },
+  {
+    "name": "Republic of Korea",
+    "iso": "KOR",
+    "flag": "KR",
+    "region": "Western Pacific Region"
+  },
+  {
+    "name": "Republic of Moldova",
+    "iso": "MDA",
+    "flag": "MD",
+    "region": "European Region"
+  },
+  {
+    "name": "Romania",
+    "iso": "ROU",
+    "flag": "RO",
+    "region": "European Region"
+  },
+  {
+    "name": "Russian Federation",
+    "iso": "RUS",
+    "flag": "RU",
+    "region": "European Region"
+  },
+  {
+    "name": "Rwanda",
+    "iso": "RWA",
+    "flag": "RW",
+    "region": "African Region"
+  },
+  {
+    "name": "San Marino",
+    "iso": "SMR",
+    "flag": "SM",
+    "region": "European Region"
+  },
+  {
+    "name": "Saudi Arabia",
+    "iso": "SAU",
+    "flag": "SA",
+    "region": "Eastern Mediterranean Region"
+  },
+  {
+    "name": "Senegal",
+    "iso": "SEN",
+    "flag": "SN",
+    "region": "African Region"
+  },
+  {
+    "name": "Serbia",
+    "iso": "SRB",
+    "flag": "RS",
+    "region": "European Region"
+  },
+  {
+    "name": "Seychelles",
+    "iso": "SYC",
+    "flag": "SC",
+    "region": "African Region"
+  },
+  {
+    "name": "Sierra Leone",
+    "iso": "SLE",
+    "flag": "SL",
+    "region": "African Region"
+  },
+  {
+    "name": "Solomon Islands",
+    "iso": "SLB",
+    "flag": "SB",
+    "region": "Western Pacific Region"
+  },
+  {
+    "name": "Somalia",
+    "iso": "SOM",
+    "flag": "SO",
+    "region": "Eastern Mediterranean Region"
+  },
+  {
+    "name": "South Africa",
+    "iso": "ZAF",
+    "flag": "ZA",
+    "region": "African Region"
+  },
+  {
+    "name": "South Sudan",
+    "iso": "SSD",
+    "flag": "SS",
+    "region": "African Region"
+  },
+  {
+    "name": "Spain",
+    "iso": "ESP",
+    "flag": "ES",
+    "region": "European Region"
+  },
+  {
+    "name": "Sri Lanka",
+    "iso": "LKA",
+    "flag": "LK",
+    "region": "South East Asia Region"
+  },
+  {
+    "name": "Suriname",
+    "iso": "SUR",
+    "flag": "SR",
+    "region": "Region of the Americas"
+  },
+  {
+    "name": "Sweden",
+    "iso": "SWE",
+    "flag": "SE",
+    "region": "European Region"
+  },
+  {
+    "name": "Switzerland",
+    "iso": "CHE",
+    "flag": "CH",
+    "region": "European Region"
+  },
+  {
+    "name": "Tajikistan",
+    "iso": "TJK",
+    "flag": "TJ",
+    "region": "European Region"
+  },
+  {
+    "name": "Thailand",
+    "iso": "THA",
+    "flag": "TH",
+    "region": "South East Asia Region"
+  },
+  {
+    "name": "Timor-Leste",
+    "iso": "TLS",
+    "flag": "TL",
+    "region": "South East Asia Region"
+  },
+  {
+    "name": "Togo",
+    "iso": "TGO",
+    "flag": "TG",
+    "region": "African Region"
+  },
+  {
+    "name": "Tonga",
+    "iso": "TON",
+    "flag": "TO",
+    "region": "Western Pacific Region"
+  },
+  {
+    "name": "Tunisia",
+    "iso": "TUN",
+    "flag": "TN",
+    "region": "Eastern Mediterranean Region"
+  },
+  {
+    "name": "Uganda",
+    "iso": "UGA",
+    "flag": "UG",
+    "region": "African Region"
+  },
+  {
+    "name": "United Kingdom",
+    "iso": "GBR",
+    "flag": "GB",
+    "region": "European Region"
+  },
+  {
+    "name": "United Republic of Tanzania",
+    "iso": "TZA",
+    "flag": "TZ",
+    "region": "African Region"
+  },
+  {
+    "name": "United States of America",
+    "iso": "USA",
+    "flag": "US",
+    "region": "Region of the Americas"
+  },
+  {
+    "name": "Uruguay",
+    "iso": "URY",
+    "flag": "UY",
+    "region": "Region of the Americas"
+  },
+  {
+    "name": "Uzbekistan",
+    "iso": "UZB",
+    "flag": "UZ",
+    "region": "European Region"
+  },
+  {
+    "name": "Viet Nam",
+    "iso": "VNM",
+    "flag": "VN",
+    "region": "Western Pacific Region"
+  },
+  {
+    "name": "Zambia",
+    "iso": "ZMB",
+    "flag": "ZM",
+    "region": "African Region"
+  },
+  {
+    "name": "Zanzibar (United Republic of Tanzania)",
+    "iso": "ZZA",
+    "flag": "TZ",
+    "region": "African Region"
+  },
+  {
+    "name": "Zimbabwe",
+    "iso": "ZWE",
+    "flag": "ZW",
+    "region": "African Region"
+  }
+]
