@@ -16,7 +16,6 @@ import {
   ImageBackground,
   TouchableOpacity,
   Animated as RNAnimated,
-  FlatList,
 } from 'react-native';
 import { useDispatch, useSelector } from 'react-redux';
 import {
@@ -102,6 +101,27 @@ export default function CountryProfileScreen({ navigation, route }) {
     return { labels: chart.years || [], datasets };
   }, [selectedCountry]);
 
+  // --- availability flags ---
+  const hasPieData = useMemo(
+    () => pieData.some(d => d.population > 0),
+    [pieData],
+  );
+
+  const hasLineData = useMemo(
+    () =>
+      (lineData.labels?.length || 0) > 0 &&
+      (lineData.datasets?.length || 0) > 0,
+    [lineData],
+  );
+
+  const hasAnyChart = hasPieData || hasLineData;
+
+  // Reset active tab when available data changes
+  useEffect(() => {
+    if (hasPieData) setActiveTab('age');
+    else if (hasLineData) setActiveTab('time');
+  }, [hasPieData, hasLineData]);
+
   if (loading) return <ActivityIndicator style={styles.center} size="large" />;
   if (error) return <Text style={styles.center}>{error}</Text>;
   if (!selectedCountry)
@@ -131,7 +151,15 @@ export default function CountryProfileScreen({ navigation, route }) {
             />
           </TouchableOpacity>
 
-          <Text style={styles.headerTitle}>{name || 'Country'}</Text>
+          <View style={styles.headerTitleWrapper}>
+            <Text
+              style={styles.headerTitle}
+              numberOfLines={2}
+              ellipsizeMode="tail"
+            >
+              {name || 'Country'}
+            </Text>
+          </View>
 
           <TouchableOpacity onPress={handleToggleFavourite}>
             <Icon
@@ -155,50 +183,58 @@ export default function CountryProfileScreen({ navigation, route }) {
             <Text style={styles.region}>{region || 'Region'}</Text>
           </View>
 
+          {/* Burden section */}
           <View style={styles.headerRow}>
             <Text style={styles.burdenText}>Burden</Text>
-            <View style={styles.tabRow}>
-              <ChartTab
-                active={activeTab === 'age'}
-                icon={require('../../assets/pie_chart.png')}
-                label="Age group"
-                onPress={() => setActiveTab('age')}
-              />
-              <ChartTab
-                active={activeTab === 'time'}
-                icon={require('../../assets/trends_chart.png')}
-                label="Over time"
-                onPress={() => setActiveTab('time')}
-              />
-            </View>
+
+            {hasAnyChart && (
+              <View style={styles.tabRow}>
+                {hasPieData && (
+                  <ChartTab
+                    active={activeTab === 'age'}
+                    icon={require('../../assets/pie_chart.png')}
+                    label="Age group"
+                    onPress={() => setActiveTab('age')}
+                  />
+                )}
+                {hasLineData && (
+                  <ChartTab
+                    active={activeTab === 'time'}
+                    icon={require('../../assets/trends_chart.png')}
+                    label="Over time"
+                    onPress={() => setActiveTab('time')}
+                  />
+                )}
+              </View>
+            )}
           </View>
 
+          {/* Divider always visible */}
           <View style={styles.sectionDivider} />
 
-          {activeTab === 'age' ? (
+          {/* Charts only when data exists */}
+          {hasAnyChart && (
             <>
-              <Text style={styles.chartTitle}>
-                Drowning deaths by age group
-              </Text>
-              {pieData.some(d => d.population > 0) ? (
-                <MemoPieChart data={pieData} />
-              ) : (
-                <Text>No age-group data available</Text>
+              {activeTab === 'age' && hasPieData && (
+                <>
+                  <Text style={styles.chartTitle}>
+                    Drowning deaths by age group
+                  </Text>
+                  <MemoPieChart data={pieData} />
+                </>
               )}
-            </>
-          ) : (
-            <>
-              <Text style={styles.chartTitle}>
-                Drowning death rates over time
-              </Text>
-              {lineData.labels.length ? (
-                <MemoLineChart
-                  lineData={lineData}
-                  width={screenWidth - 30}
-                  height={chartHeight}
-                />
-              ) : (
-                <Text>No trend data available</Text>
+
+              {activeTab === 'time' && hasLineData && (
+                <>
+                  <Text style={styles.chartTitle}>
+                    Drowning death rates over time
+                  </Text>
+                  <MemoLineChart
+                    lineData={lineData}
+                    width={screenWidth - 30}
+                    height={chartHeight}
+                  />
+                </>
               )}
             </>
           )}
@@ -719,7 +755,18 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
     paddingTop: 35,
   },
-  headerTitle: { fontSize: 22, fontWeight: '600', color: '#fff' },
+  headerTitleWrapper: {
+    flex: 1,
+    marginHorizontal: 10,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  headerTitle: {
+    fontSize: 20,
+    fontWeight: '600',
+    color: '#fff',
+    textAlign: 'center',
+  },
   icon: { width: 24, height: 24, tintColor: '#fff' },
   content: { padding: 20, flex: 1, backgroundColor: '#fff' },
   regionRow: { flexDirection: 'row', alignItems: 'center', marginBottom: 5 },
