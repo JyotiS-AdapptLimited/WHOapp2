@@ -24,7 +24,7 @@ export default function FavouriteScreen({ navigation }) {
   const [showModal, setShowModal] = useState(false);
   const [selectedCode, setSelectedCode] = useState(null);
 
-  // 🔹 Share with deep link
+  // Share with deep link
   const handleShare = async country => {
     try {
       const deepLink = `myapp://Country/${country.code}`; // custom deep link
@@ -38,7 +38,7 @@ export default function FavouriteScreen({ navigation }) {
 
   // Flag from API
   const getFlagUrl = alpha2 =>
-    `https://flagcdn.com/w40/${alpha2.toLowerCase()}.png`;
+    `https://flagcdn.com/w160/${alpha2.toLowerCase()}.png`;
 
   // Delete confirm
   const confirmDelete = code => {
