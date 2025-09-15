@@ -3,10 +3,14 @@ import countries from 'i18n-iso-countries';
 import enLocale from 'i18n-iso-countries/langs/en.json';
 
 countries.registerLocale(enLocale);
-const specialFlags = {
+ const specialFlags = {
   ZZA: 'tz', 
+
 };
-const normalizeFlagCode = (iso) => {
+const normalizeFlagCode = (country) => {
+  if (!country) return null;
+  if (country.flag) return country.flag.toLowerCase();
+  const iso = country.iso;
   if (!iso) return null;
   if (specialFlags[iso]) return specialFlags[iso];
   if (iso.length === 2) return iso.toLowerCase();
@@ -40,7 +44,7 @@ const countryIndicatorsSlice = createSlice({
 
       state.selectedCountry = {
         ...country,
-        flag: normalizeFlagCode(country.iso), // add normalized flag
+        flag: normalizeFlagCode(country), // add normalized flag
         pieChart: country.pieChart || { values: [] },
       };
     },
@@ -52,7 +56,7 @@ const countryIndicatorsSlice = createSlice({
       // Normalize all countries with flag codes
       state.allCountries = action.payload.map(c => ({
         ...c,
-        flag: normalizeFlagCode(c.iso),
+        flag: normalizeFlagCode(c),
       }));
     },
     setSelectedCountry: (state, action) => {
@@ -60,7 +64,7 @@ const countryIndicatorsSlice = createSlice({
       if (match) {
         state.selectedCountry = {
           ...match,
-          flag: normalizeFlagCode(match.iso),
+          flag: normalizeFlagCode(match),
           pieChart: match.pieChart || { values: [] },
         };
       }
