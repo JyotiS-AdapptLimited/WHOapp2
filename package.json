@@ -17,6 +17,7 @@
     "@reduxjs/toolkit": "^2.9.0",
     "d3-scale": "^4.0.2",
     "d3-shape": "^3.2.0",
+    "i18n-iso-countries": "^7.14.0",
     "react": "19.1.0",
     "react-native": "0.81.1",
     "react-native-device-info": "^14.0.4",

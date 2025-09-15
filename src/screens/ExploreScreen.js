@@ -392,7 +392,7 @@ const DomainsScreen = ({ route, navigation }) => {
 const styles = StyleSheet.create({
   bg: { flex: 1, resizeMode: 'cover' },
   header: {
-    height: '9%',
+    height: '11%',
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
@@ -403,7 +403,7 @@ const styles = StyleSheet.create({
   headerTitle: {
     flex: 1,
     textAlign: 'center',
-    fontSize: 22,
+    fontSize: 20,
     fontWeight: '700',
     color: '#fff',
     paddingTop: 35,

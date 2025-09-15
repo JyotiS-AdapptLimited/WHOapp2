@@ -748,7 +748,7 @@ const styles = StyleSheet.create({
   center: { flex: 1, justifyContent: 'center', alignItems: 'center' },
   headerBg: { width: '100%', height: '100%' },
   headerContent: {
-    height: '9%',
+    height: '11%',
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
